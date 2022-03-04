@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1000px) {
+  #content,
+  footer,
+  header {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+#about img {
+  width: 30%;
+}
+
+#content {
+  float: right;
+  width: 100%;
+  letter-spacing: 2px;
+}
+
+footer {
+  width: 100%;
+  height: 60px;
+  letter-spacing: 2px;
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+  font-size: larger;
+  padding: 10px;
+}
+
+main {
+  padding: 20px;
+  margin-top: 40px;
+  overflow: auto;
+  top: 0px;
+}
+
+img {
+  vertical-align: middle;
+  width: 100%;
+  border-radius: 15px;
+}
+
+nav {
+  overflow: hidden;
+  display: inline-flex;
+  font-family: Arial, Helvetica, sans-serif;
+  position: fixed;
+  background-color: black;
+  list-style-type: none;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  z-index: 1;
+  text-align: left;
+  line-height: 15%;
+  height: 15;
+}
+
+a:hover {
+  color: rgb(49, 165, 233);
+  font-weight: bolder;
+  font-size: 19px;
+}
+
+nav a {
+  float: left;
+  font-size: 15px;
+  font-weight: bold;
+  color: whitesmoke;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  top: 0;
+  text-align: center;
+}
+
+body {
+  background-color: whitesmoke;
+  color: rgb(20, 20, 20);
+  font-family: cursive;
+  padding: 0;
+  text-align: left;
+}
+
+#project,
+#home {
+  text-align: center;
+}
+
+#contact {
+  text-align: end;
+}
+
+#home,
+#project,
+#about {
+  background-color: white;
+  padding: 10px;
+  border-color: black;
+  border-style: groove;
+  border-radius: 20px;
+}
+.colorBlue {
+  color: rgb(49, 165, 233);
+}
+
+img {
+  width: 50%;
+}
